@@ -19,3 +19,7 @@ Dự án xây dựng ứng dụng quản lý danh mục món ăn, bao gồm fron
 3. Cấu hình file `.env` tại backend với biến `MONGODB_URI` và `PORT`.
 4. Khởi chạy backend: `npm start`
 5. Khởi chạy frontend: `npm run dev`
+## Hướng dẫn chạy bằng Docker
+### Backend
+1. Kéo image từ Docker Hub: `docker pull <tên-tài-khoản-của-bạn>/backend`
+2. Chạy container: `docker run -d -p 5000:5000 --env-file ./backend/.env yennhi2706/backend`
