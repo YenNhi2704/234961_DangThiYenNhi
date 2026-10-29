@@ -1,5 +1,5 @@
 # Sử dụng môi trường Node.js bản nhẹ
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Khai báo thư mục làm việc trong container
 WORKDIR /app
