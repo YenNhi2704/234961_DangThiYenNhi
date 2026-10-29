@@ -23,3 +23,7 @@ Dự án xây dựng ứng dụng quản lý danh mục món ăn, bao gồm fron
 ### Backend
 1. Kéo image từ Docker Hub: `docker pull <tên-tài-khoản-của-bạn>/backend`
 2. Chạy container: `docker run -d -p 5000:5000 --env-file ./backend/.env yennhi2706/backend`
+### Frontend
+1. Kéo image từ Docker Hub: `docker pull <tên-tài-khoản-của-bạn>/frontend`
+2. Chạy container: `docker run -d -p 3000:3000 yennhi2706/frontend`
+3. Truy cập giao diện tại: `http://localhost:3000`
